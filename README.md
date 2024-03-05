@@ -24,6 +24,17 @@ These images were reconstructed from 1000 digits of the same number and position
 + git clone https://github.com/jboirazian/CaptchaCV2.git
 + python3 verify.py
 
+### Example
+
+```python3
+import modules.digit_recogniton as dr
+import cv2
+
+if __name__ == "__main__":
+    img=cv2.imread('example.png', cv2.IMREAD_GRAYSCALE)
+    print(dr.predict_number(image=img))
+```
+
 ## Performance
 
 Without the need of a GPU and with the provided image example , the prediction was achived in less than 5 ms
