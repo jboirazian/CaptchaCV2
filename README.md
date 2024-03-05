@@ -37,7 +37,9 @@ if __name__ == "__main__":
 
 ## Performance
 
-Without the need of a GPU and with the provided image example , the prediction was achived in less than 5 ms
+Without the need of a GPU and with the provided image example , the prediction was achived in less than 5 ms on my PC.
+
+I was also able to run in on an really old Android table using [Termux](https://termux.dev/en/) and got around 50 ms 
 
 
 
